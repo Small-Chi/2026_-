@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f7ee">
+    <meta name="description" content="2026 宇宙科技公司員工旅遊活動報名">
+    <title>2026 宇宙科技公司員工旅遊</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="event-title" aria-labelledby="page-title">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> COSMOS TECHNOLOGY · COMPANY TRIP 2026</p>
+        <h1 id="page-title">2026 宇宙科技公司員工旅遊</h1>
+        <a class="jump-link" href="#registration">立即報名 <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <section class="cover" aria-label="活動主視覺">
+        <img src="cover.jpg" alt="2026 宇宙科技公司員工旅遊活動橫幅">
+        <span class="cover-caption">ONE TEAM, ONE JOURNEY</span>
+      </section>
+
+      <section class="event-details" aria-label="活動內容與報名表單">
+        <div class="schedule-panel">
+          <div class="section-heading">
+            <p class="eyebrow">THE DAY, AT A GLANCE</p>
+            <h2>一起出發，<br>把日常換成風景。</h2>
+          </div>
+          <ol class="schedule">
+            <li><time datetime="08:00">08:00</time><span>報到</span></li>
+            <li><time datetime="09:00">09:00</time><span>場次一</span></li>
+            <li><time datetime="10:00">10:00</time><span>break time</span></li>
+            <li><time datetime="10:30">10:30</time><span>場次二</span></li>
+            <li><time datetime="11:30">11:30</time><span>Q&amp;A</span></li>
+            <li><time datetime="12:00">12:00</time><span>活動結束</span></li>
+          </ol>
+          <p class="schedule-note">行程時間以活動當日公告為準</p>
+        </div>
+
+        <div class="registration-panel" id="registration">
+          <div class="form-heading">
+            <div>
+              <p class="eyebrow">SAVE YOUR SEAT</p>
+              <h2>員工報名</h2>
+            </div>
+            <span class="required-note"><span aria-hidden="true">*</span> 必填欄位</span>
+          </div>
+
+          <form id="registration-form">
+            <div class="field-grid">
+              <label class="field">
+                <span>姓名 <span class="required-mark">*</span></span>
+                <input name="name" autocomplete="name" placeholder="請輸入姓名" required>
+              </label>
+              <label class="field">
+                <span>Email <span class="required-mark">*</span></span>
+                <input name="email" type="email" autocomplete="email" placeholder="name@company.com" required>
+              </label>
+              <label class="field">
+                <span>單位</span>
+                <input name="department" autocomplete="organization" placeholder="例如：產品部">
+              </label>
+              <label class="field">
+                <span>電話 <span class="required-mark">*</span></span>
+                <input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="請輸入聯絡電話" required>
+              </label>
+              <label class="field field-wide">
+                <span>職稱</span>
+                <input name="title" autocomplete="organization-title" placeholder="例如：設計師">
+              </label>
+            </div>
+            <button class="submit-button" type="submit">
+              <span>送出報名</span><span class="button-arrow" aria-hidden="true">→</span>
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

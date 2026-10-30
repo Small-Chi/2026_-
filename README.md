@@ -6,6 +6,8 @@ GitHub Pages：https://small-chi.github.io/2026_-/
 
 GitHub repo：https://github.com/Small-Chi/2026_-
 
+維護文件：[系統文件索引](docs/README.md)
+
 ## Google 試算表
 
 1. 在 Apps Script 建立新專案，將 `Code.gs` 貼入編輯器並儲存。

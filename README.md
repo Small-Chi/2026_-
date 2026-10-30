@@ -1,6 +1,10 @@
 # 2026 宇宙科技公司員工旅遊
 
-員工活動報名網站。部署完成後，Pages 網址會記錄在這裡。
+員工活動報名網站。
+
+GitHub Pages：https://small-chi.github.io/2026_-/
+
+GitHub repo：https://github.com/Small-Chi/2026_-
 
 ## Google 試算表
 

@@ -26,8 +26,8 @@ function doPost(event) {
       String(data.title || "").trim(),
     ];
     const nextRow = sheet.getLastRow() + 1;
-    sheet.getRange(nextRow, 4).setNumberFormat("@");
     sheet.getRange(nextRow, 1, 1, row.length).setValues([row]);
+    sheet.getRange(nextRow, 4).setNumberFormat("@");
     return jsonResponse({ ok: true });
   } finally {
     lock.releaseLock();

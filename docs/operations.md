@@ -35,7 +35,7 @@
 
 ```powershell
 git status --short
-git add index.html styles.css app.js Code.gs cover.jpg README.md docs/
+git add index.html styles.css app.js Code.gs cover2.jpg README.md docs/
 git commit -m "Describe the maintenance change"
 git push origin main
 ```

@@ -10,7 +10,7 @@ flowchart LR
   Pages --> HTML[index.html]
   Pages --> CSS[styles.css]
   Pages --> JS[app.js]
-  Pages --> Image[cover.jpg]
+  Pages --> Image[cover2.jpg]
   JS -->|POST URLSearchParams / no-cors| GAS[Apps Script Web App]
   GAS -->|DriveApp 查找或建立| Sheet[Google 試算表]
   GAS -->|驗證、加鎖、附加資料列| Sheet
@@ -21,7 +21,7 @@ flowchart LR
 頁面由上而下包含三列：
 
 1. 活動標題及報名錨點。
-2. 圓角橫幅圖片 `cover.jpg`。
+2. 圓角橫幅圖片 `cover2.jpg`。
 3. 活動內容與報名表單；寬螢幕左右排列，窄螢幕改為單欄堆疊。
 
 行程內容為 08:00 報到、09:00 場次一、10:00 break time、10:30 場次二、11:30 Q&A、12:00 活動結束。
@@ -34,7 +34,8 @@ flowchart LR
 | `styles.css` | 桌機與手機版面、色彩、表單狀態及動態效果。 |
 | `app.js` | 表單送出、前端狀態訊息及 Apps Script URL。 |
 | `Code.gs` | Apps Script 入口、欄位驗證、併發鎖、試算表初始化與資料寫入。 |
-| `cover.jpg` | 活動橫幅圖片。 |
+| `cover2.jpg` | 網站目前使用的活動橫幅圖片。 |
+| `cover.jpg` | 舊圖片檔，保留但不由網站引用。 |
 | `README.md` | 專案首頁及正式 Pages 網址。 |
 | `spec/` | 原始需求文件；不應提交到 GitHub。 |
 
